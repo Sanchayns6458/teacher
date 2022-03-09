@@ -1,0 +1,56 @@
+.header{
+    background-image: url(http://educavo.rstheme.com/static/media/1.bd54f27a.jpg);
+    background-size: cover;
+    .navbar{padding-top: 20px;}
+    .container-fluid{
+        .navbar-brand img{
+            max-height: 40px;
+            max-width: 100%;
+        }
+        .icon i{font-size: 20px;padding: 5px 10px;color:white; &:last-child{font-size: 24px;}&:hover{border: 2px solid red;}}
+        .navbar-nav{margin-left: 60px;
+        .nav-item{ .nav-link{font-size: 18px; padding: 10px 30px;margin-left: 20px; border-radius: 5px;color:white;
+        &:hover{background-color: white;color: black;.abc{display: inline;}.hide{display: none;}}
+        .abc{display: none;}
+        i{position: absolute;font-size: 20px; margin-left: 5px;}
+        }}
+        }
+        
+    }
+    .section1{
+        margin-top: 200px;
+        h1{color: white;font-size: 70px;font-weight: 700;
+            }
+        h2{
+            color: #ff5421;
+            margin-bottom: 30px;
+            font-size: 22px;
+            font-weight: 500;
+            
+
+        }
+        .btn{background-color: #FF5421;color: white;font-weight: bold;font-size: 18px;margin-top: 40px;}
+    }
+    .box{
+        .box1{  background-color: #171F32;padding:10px 3%; a{color: white; text-decoration: none;
+            img{width: 50px;height: 50px;margin-top: 10px;}
+            .box2{margin-left: 20px;
+            h4{font-size: 22px;font-weight: 700;}
+            p{font-weight: 400;font-size: 16px;}}
+            }
+        }
+    }
+    .cont{margin-top: 100px;padding-bottom: 30px;}
+}
+.section3{
+    a{
+        img{width: 100%;height: auto;margin-bottom: 30px;}
+    }
+}
+.navbar-toggler{
+i{color: white;font-size: 36px;}
+}
+@media(max-width:991px)
+{
+    .navbar .container-fluid .navbar-nav .nav-item .nav-link i{display: none;}
+}
